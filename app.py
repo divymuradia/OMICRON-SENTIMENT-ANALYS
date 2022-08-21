@@ -82,4 +82,4 @@ def predict():
     else:
       return render_template('index.html', prediction_text='Text is Netural')
 
-app.run()
+app.run()(debug=True)
